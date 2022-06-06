@@ -1,3 +1,4 @@
 import { MapDemo } from './operators/map';
+import { ObservablesDemo } from './observables';
 
-MapDemo.main();
+ObservablesDemo.main();
