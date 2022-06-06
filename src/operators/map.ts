@@ -8,8 +8,6 @@ export class MapDemo {
       subscriber.next(3);
       subscriber.complete();
     });
-    values
-      .pipe(map((values: number) => values * values))
-      .subscribe((values: number) => console.log(values));
+    values.pipe(map((values: number) => values * values)).subscribe((values: number) => console.log(values));
   }
 }
